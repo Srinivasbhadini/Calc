@@ -13,7 +13,7 @@
     align-items: center;
 }
 .calculator{
-    background-color:#ecf0f3;
+    background-color:#ece1d6;
     margin-top: 450px;
     padding: 15px;
     border-radius: 30px;
@@ -27,7 +27,7 @@ input{
     grid-column: span 4;
     height: 70px;
     width: 260px;
-    background-color: #ecf0f3;
+    background-color: lightgray;
     box-shadow: 8px 10px 12px #aaa9a9;
     border: none;
     border-radius: 30px;
@@ -41,13 +41,16 @@ input{
 button{
     height: 48px;
     width: 48px;
-    background-color: lightblue;
+    background-color: lightgray;
     border: none;
     border-radius: 50%;
     font-size: 16px;
     box-shadow: 8px 10px 12px #888888;
     margin: 8px;    
     font-weight: bold;
+}
+button:hover {
+    background-color: lightblue;
 }
 .equal{
     width: 120px;
